@@ -1,4 +1,10 @@
 <?php
+
+require_once '../Board.php';
+require_once '../Strategy/MoveStrategy.php';
+require_once '../Strategy/RandomStrategy.php';
+require_once '../Strategy/SmartStrategy.php';
+
 $output = [
     'response' => false,
     'reason' => '',
